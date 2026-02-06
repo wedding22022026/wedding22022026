@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💒 Đức Mạnh ❤️ Thảo Thương - Thiệp Cưới Online</title>
+    <meta name="description" content="Thiệp cưới online của Đức Mạnh và Thảo Thương - 22/02/2026">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="floating-hearts" id="floatingHearts"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">M & T</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#couple">Cặp đôi</a></li>
+                <li><a href="#events">Sự kiện</a></li>
+                <li><a href="#gallery">Album</a></li>
+                <li><a href="#rsvp">Xác nhận</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="save-the-date">~ Save the Date ~</p>
+            <h1 class="couple-names">
+                <span class="groom-name">Đức Mạnh</span>
+                <span class="heart-icon">♥</span>
+                <span class="bride-name">Thảo Thương</span>
+            </h1>
+            <p class="wedding-tagline">Chúng tôi sắp kết hôn!</p>
+            <div class="wedding-date-hero">
+                <span class="date-number">22</span>
+                <span class="date-divider">/</span>
+                <span class="date-number">02</span>
+                <span class="date-divider">/</span>
+                <span class="date-number">2026</span>
+            </div>
+            <p class="lunar-date">Nhằm ngày 06 tháng 01 năm Bính Ngọ</p>
+
+            <!-- Countdown Timer -->
+            <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                    <span class="countdown-number" id="days">00</span>
+                    <span class="countdown-label">Ngày</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="hours">00</span>
+                    <span class="countdown-label">Giờ</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="minutes">00</span>
+                    <span class="countdown-label">Phút</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="seconds">00</span>
+                    <span class="countdown-label">Giây</span>
+                </div>
+            </div>
+
+            <a href="#events" class="scroll-down">
+                <span>Xem thêm</span>
+                <div class="scroll-arrow"></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Invitation Message -->
+    <section class="invitation-message">
+        <div class="container">
+            <div class="ornament top"></div>
+            <h2>Trân Trọng Kính Mời</h2>
+            <p class="invitation-text">
+                Thân mời quý khách đến dự bữa cơm thân mật<br>
+                mừng Lễ Thành Hôn của hai chúng tôi
+            </p>
+            <div class="ornament bottom"></div>
+        </div>
+    </section>
+
+    <!-- Couple Section -->
+    <section id="couple" class="couple-section">
+        <div class="container">
+            <h2 class="section-title">Cô Dâu & Chú Rể</h2>
+            <div class="section-subtitle">~ Về chúng tôi ~</div>
+
+            <div class="couple-container">
+                <!-- Groom -->
+                <div class="person groom" data-animate="fade-right">
+                    <div class="person-image">
+                        <div class="image-frame">
+                            <div class="placeholder-avatar male">
+                                <span>🤵</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="person-info">
+                        <p class="person-role">Chú Rể</p>
+                        <h3 class="person-name">Đức Mạnh</h3>
+                        <p class="person-title">Trưởng Nam</p>
+                        <div class="family-info">
+                            <p><strong>Con ông:</strong> Nguyễn Văn Thắng</p>
+                            <p><strong>Và bà:</strong> Hoàng Thị Lương</p>
+                            <p class="address">Thôn Lĩnh Sơn 5, Xã Yên Xuân<br>Tỉnh Nghệ An</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Heart Divider -->
+                <div class="couple-divider">
+                    <div class="heart-decoration">
+                        <span>❤</span>
+                    </div>
+                </div>
+
+                <!-- Bride -->
+                <div class="person bride" data-animate="fade-left">
+                    <div class="person-image">
+                        <div class="image-frame">
+                            <div class="placeholder-avatar female">
+                                <span>👰</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="person-info">
+                        <p class="person-role">Cô Dâu</p>
+                        <h3 class="person-name">Thảo Thương</h3>
+                        <p class="person-title">Thứ Nữ</p>
+                        <div class="family-info">
+                            <p><strong>Con ông:</strong> Phạm Văn Hải</p>
+                            <p><strong>Và bà:</strong> Nguyễn Thị Thêu</p>
+                            <p class="address">Xóm Thiện Thi, Xã Vạn An<br>Tỉnh Nghệ An</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events-section">
+        <div class="container">
+            <h2 class="section-title">Sự Kiện Cưới</h2>
+            <div class="section-subtitle">~ Thời gian & Địa điểm ~</div>
+
+            <div class="events-container">
+                <div class="event-card" data-animate="fade-up">
+                    <div class="event-icon">💒</div>
+                    <h3 class="event-title">Lễ Thành Hôn</h3>
+                    <div class="event-datetime">
+                        <div class="event-time">
+                            <span class="icon">🕐</span>
+                            <span>10:15</span>
+                        </div>
+                        <div class="event-date">
+                            <span class="icon">📅</span>
+                            <span>Chủ Nhật, 22/02/2026</span>
+                        </div>
+                        <div class="event-lunar">
+                            <span class="icon">🌙</span>
+                            <span>Ngày 06 tháng 01 năm Bính Ngọ</span>
+                        </div>
+                    </div>
+                    <div class="event-location">
+                        <h4>📍 Địa điểm</h4>
+                        <p class="venue-name">Sân Vận Động</p>
+                        <p class="venue-note">(Cạnh Ủy ban xã Lĩnh Sơn cũ)</p>
+                        <p class="venue-address">Thôn Lĩnh Sơn 5 - Xã Yên Xuân<br>Tỉnh Nghệ An</p>
+                    </div>
+                    <a href="https://maps.app.goo.gl/ud5pfCEuXdr8DjE37" target="_blank" class="btn-directions">
+                        🗺️ Xem bản đồ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Bản Đồ Đường Đi</h2>
+            <div class="section-subtitle">~ Đến dự buổi tiệc cưới ~</div>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15142.845738889765!2d105.45!3d18.95!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3139cd8f3d0ab5e5%3A0x9c1f6b9e6e6e6e6e!2zWMOjIFnDqm4gWHXDom4sIFnDqm4gVGjDoG5oLCBOZ2jhu4cgQW4!5e0!3m2!1svi!2s!4v1707235200000!5m2!1svi!2s"
+                    width="100%" height="450" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="map-note">
+                <p>📍 <strong>Sân Vận Động</strong> (Cạnh Ủy ban xã Lĩnh Sơn cũ)</p>
+                <p>Thôn Lĩnh Sơn 5 - Xã Yên Xuân - Huyện Yên Thành - Tỉnh Nghệ An</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Album Ảnh</h2>
+            <div class="section-subtitle">~ Khoảnh khắc của chúng tôi ~</div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-animate="zoom-in">
+                    <img src="images/anh1.jpg" alt="Ảnh cưới 1">
+                </div>
+                <div class="gallery-item" data-animate="zoom-in">
+                    <img src="images/anh2.jpg" alt="Ảnh cưới 2">
+                </div>
+                <div class="gallery-item" data-animate="zoom-in">
+                    <img src="images/anh3.jpg" alt="Ảnh cưới 3">
+                </div>
+                <div class="gallery-item" data-animate="zoom-in">
+                    <img src="images/anh4.jpg" alt="Ảnh cưới 4">
+                </div>
+                <div class="gallery-item" data-animate="zoom-in">
+                    <img src="images/anh5.jpg" alt="Ảnh cưới 5">
+                </div>
+                <div class="gallery-item" data-animate="zoom-in">
+                    <img src="images/anh6.jpg" alt="Ảnh cưới 6">
+                </div>
+                <div class="gallery-item" data-animate="zoom-in">
+                    <img src="images/anh7.jpg" alt="Ảnh cưới 7">
+                </div>
+                <div class="gallery-item" data-animate="zoom-in">
+                    <img src="images/anh8.jpg" alt="Ảnh cưới 8">
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section id="rsvp" class="rsvp-section">
+        <div class="container">
+            <h2 class="section-title">Xác Nhận Tham Dự</h2>
+            <div class="section-subtitle">~ Hãy cho chúng tôi biết ~</div>
+
+            <div class="rsvp-container">
+                <p class="rsvp-message">
+                    Sự hiện diện của Quý vị là niềm vinh hạnh cho gia đình chúng tôi!<br>
+                    Rất hân hạnh được đón tiếp!
+                </p>
+
+                <form class="rsvp-form" id="rsvpForm">
+                    <div class="form-group">
+                        <label for="guestName">Họ và tên *</label>
+                        <input type="text" id="guestName" name="guestName" required placeholder="Nhập họ và tên">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="guestPhone">Số điện thoại</label>
+                        <input type="tel" id="guestPhone" name="guestPhone" placeholder="Nhập số điện thoại">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="guestCount">Số người tham dự</label>
+                        <select id="guestCount" name="guestCount">
+                            <option value="1">1 người</option>
+                            <option value="2">2 người</option>
+                            <option value="3">3 người</option>
+                            <option value="4">4 người</option>
+                            <option value="5">5+ người</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="attendance">Xác nhận tham dự</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="attendance" value="yes" checked>
+                                <span class="radio-custom"></span>
+                                Sẽ tham dự 🎉
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="attendance" value="no">
+                                <span class="radio-custom"></span>
+                                Không thể tham dự 😢
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="wishes">Lời chúc</label>
+                        <textarea id="wishes" name="wishes" rows="4"
+                            placeholder="Gửi lời chúc đến cô dâu chú rể..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        💌 Gửi xác nhận
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wishes Section -->
+    <section class="wishes-section">
+        <div class="container">
+            <h2 class="section-title">Sổ Lưu Bút</h2>
+            <div class="section-subtitle">~ Lời chúc từ quan khách ~</div>
+
+            <div class="wishes-container" id="wishesContainer">
+                <div class="wish-card">
+                    <div class="wish-avatar">💝</div>
+                    <div class="wish-content">
+                        <h4>Chúc mừng hạnh phúc!</h4>
+                        <p>Chúc hai bạn trăm năm hạnh phúc, sớm có thiên thần nhỏ!</p>
+                        <span class="wish-author">- Một người bạn</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-hearts">💕</div>
+            <h2 class="footer-names">Đức Mạnh & Thảo Thương</h2>
+            <p class="footer-date">22 . 02 . 2026</p>
+            <p class="footer-thanks">Cảm ơn bạn đã ghé thăm!</p>
+            <div class="footer-divider"></div>
+            <p class="footer-copyright">Made with ❤️ for our special day</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">↑</button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
