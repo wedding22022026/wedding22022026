@@ -703,37 +703,6 @@ body {
     box-shadow: 0 8px 30px rgba(201, 168, 108, 0.5);
 }
 
-/* ===========================
-   Map Section
-   =========================== */
-.map-section {
-    padding: var(--section-padding);
-    background: var(--white);
-}
-
-.map-container {
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-}
-
-.map-note {
-    text-align: center;
-    margin-top: 30px;
-    padding: 25px;
-    background: var(--accent);
-    border-radius: 20px;
-}
-
-.map-note p {
-    margin-bottom: 10px;
-    color: var(--text);
-}
-
-.map-note strong {
-    color: var(--primary);
-    font-size: 1.2rem;
-}
 
 /* ===========================
    Gallery Section
@@ -1171,4 +1140,5 @@ body {
     .event-card {
         padding: 30px 20px;
     }
+
 }
